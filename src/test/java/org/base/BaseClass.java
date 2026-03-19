@@ -30,5 +30,6 @@ public class BaseClass {
 
     public void btnClick(WebElement element) {
         element.click();
+        System.out.println("success");
     }
 }
